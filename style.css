@@ -2,6 +2,15 @@ body {
     margin: 0;
 }
 
+.main-flex-container {
+    display: flex;
+}
+
+.form-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .full-background-img {
     width: 100%;
     height: auto;
@@ -14,6 +23,7 @@ body {
 }
 
 .background-img-footer {
+    font-size: .75rem;
     color: white;
     opacity: 50%;
     position: absolute;
