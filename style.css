@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.full-background-img {
+    width: 100%;
+    height: auto;
+}
+
+.background-img-container {
+    position: relative;
+    width: 50vw;
+    height: auto;
+}
+
+.background-img-footer {
+    color: white;
+    opacity: 50%;
+    position: absolute;
+    left: 25%;
+    bottom: 8px;
+}
+
+.background-img-footer a,
+.background-img-footer a:visited,
+.background-img-footer a:link {
+    text-decoration: underline;
+    color: white;
+}
