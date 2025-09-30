@@ -48,11 +48,11 @@
                     </div>
                     <div class="password">
                         <label for="password" aria-required="true" required>Password</label>
-                        <input type="password" name="password">
+                        <input type="password" name="password" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
                     </div>
                     <div class="password-confirm">
                         <label for="password-confirm" aria-required="true" required>Confirm Password</label>
-                        <input type="password" name="password-confirm">
+                        <input type="password" name="password-confirm" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
                     </div>
                 </form>
             </div>
