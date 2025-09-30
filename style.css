@@ -1,14 +1,39 @@
 body {
     margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+form {
+    background-color: white;
+    position: relative;
+    width: 400px;
+    height: 100%;
+}
+
+input {
+    width: 150px;
+    padding: 16px;
+}
+
+label {
+    position: absolute;
+}
+
+p {
+    width: 50ch;
 }
 
 .main-flex-container {
     display: flex;
+    background-color: blue;
 }
 
 .form-flex-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 16px;
 }
 
 .full-background-img {
@@ -17,15 +42,16 @@ body {
 }
 
 .background-img-container {
+    margin: 0;
+    padding: 0;
     position: relative;
-    width: 50vw;
+    width: 25%;
     height: auto;
 }
 
 .background-img-footer {
     font-size: .75rem;
     color: white;
-    opacity: 50%;
     position: absolute;
     left: 25%;
     bottom: 8px;
@@ -36,4 +62,11 @@ body {
 .background-img-footer a:link {
     text-decoration: underline;
     color: white;
+}
+
+.form-flex-header,
+.form-flex-form-body,
+.form-flex-footer {
+    background-color: red;
+    flex: 0;
 }
